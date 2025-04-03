@@ -10,7 +10,8 @@
 		"dev": "node --experimental-strip-types --watch index.ts",
 		"lint": "eslint .",
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "node --loader ts-node/esm backend/index.ts"
+		"build": "tsc",
+		"start": "node index.ts"
 	},
 	"dependencies": {
 		"bcrypt": "5.1.1",

@@ -3,7 +3,7 @@ import 'dotenv/config'
 
 const app = express()
 
-app.get('/', (req, res) => {
+app.get('/', (_req, res) => {
 	res.send("<h2>Hello world from back</h2>")
 })
 

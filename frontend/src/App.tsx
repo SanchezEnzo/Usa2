@@ -1,10 +1,12 @@
-function App() {
+import { Button, Flex, Text } from "@radix-ui/themes"
 
-  return (
-		<div className="min-h-screen flex items-center justify-center ">
-			<h1 className='text-5xl'>Hello world</h1>
-		</div>
-  )
+function App() {
+	return (
+		<Flex direction='column' align={"center"} justify={"center"} minHeight={'100dvh'} gap='2'>
+			<Text>Hello world :)</Text>
+			<Button>Let's go</Button>
+		</Flex>
+	)
 }
 
 export default App

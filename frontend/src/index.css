@@ -1,1 +1,70 @@
 @import 'tailwindcss';
+
+@theme {
+	
+  /* Colores base */
+  --color-background: #F8F0FC;
+  --color-foreground: #311B92;
+  
+  /* Colores primarios */
+  --color-primary: #9C27B0;
+  --color-primary-foreground: #FFFFFF;
+  
+  /* Colores secundarios */
+  --color-secondary: #00BFA5;
+  --color-secondary-foreground: #FFFFFF;
+  
+  /* Colores de acento */
+  --color-accent: #FFC400;
+  --color-accent-foreground: #311B92;
+  
+  /* Colores de utilidad */
+  --color-muted: #311B92;
+  --color-muted-foreground: rgba(49, 27, 146, 0.7);
+  
+  /* Colores de borde */
+  --color-border: rgba(156, 39, 176, 0.2);
+  --color-input: rgba(49, 27, 146, 0.2);
+  --color-ring: #00BFA5;
+  
+  /* Colores de tarjeta */
+  --color-card: #FFFFFF;
+  --color-card-foreground: #311B92;
+  
+  /* Colores de popover */
+  --color-popover: #FFFFFF;
+  --color-popover-foreground: #311B92;
+  
+  /* Colores destructivos */
+  --color-destructive: #FF5252;
+  --color-destructive-foreground: #FFFFFF;
+
+
+  --color-dark-background: #1A0E2E;
+  --color-dark-foreground: #F8F0FC;
+  
+  --color-dark-primary: #BB6BD9;
+  --color-dark-primary-foreground: #FFFFFF;
+  
+  --color-dark-secondary: #00E2C3;
+  --color-dark-secondary-foreground: #1A0E2E;
+  
+  --color-dark-accent: #FFD740;
+  --color-dark-accent-foreground: #1A0E2E;
+  
+  --color-dark-muted: #F8F0FC;
+  --color-dark-muted-foreground: rgba(248, 240, 252, 0.7);
+  
+  --color-dark-border: rgba(187, 107, 217, 0.2);
+  --color-dark-input: rgba(248, 240, 252, 0.2);
+  --color-dark-ring: #00E2C3;
+  
+  --color-dark-card: #2D1B4B;
+  --color-dark-card-foreground: #F8F0FC;
+  
+  --color-dark-popover: #2D1B4B;
+  --color-dark-popover-foreground: #F8F0FC;
+  
+  --color-dark-destructive: #FF7A7A;
+  --color-dark-destructive-foreground: #FFFFFF;
+}

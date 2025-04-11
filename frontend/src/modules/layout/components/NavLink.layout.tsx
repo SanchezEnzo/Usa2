@@ -1,4 +1,4 @@
-import { NavItemProps } from "../../../types/layout.types";
+import { NavItemProps } from "@/types/layout.types";
 
 export function NavLink({ to, onClick, linkSelected, children }: NavItemProps) {
 	return (

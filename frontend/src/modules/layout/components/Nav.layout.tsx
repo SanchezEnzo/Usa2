@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { NaveLinkTypes } from "../../../types/layout.types"
+import { NaveLinkTypes } from "@/types/layout.types"
 import { NavLink } from "./NavLink.layout"
 
 export function Nav () {

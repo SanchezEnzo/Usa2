@@ -1,4 +1,4 @@
-import { Nav } from "./Nav.layout"
+import { Nav } from "./Nav.layout";
 
 export function Header () {
 	return (

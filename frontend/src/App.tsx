@@ -1,11 +1,13 @@
-import { Button, Flex, Text } from "@radix-ui/themes"
+import { Footer } from './modules/layout/components/Footer.layout'
+import { Header } from './modules/layout/components/Header.layout'
 
 function App() {
 	return (
-		<Flex direction='column' align={"center"} justify={"center"} minHeight={'100dvh'} gap='2'>
-			<Text>Hello world :)</Text>
-			<Button>Let's go</Button>
-		</Flex>
+		<div className='min-h-screen grid grid-rows-[auto_1f_auto] bg-ligth-background'>
+			<Header />
+			<main className=''></main>
+			<Footer />
+		</div>
 	)
 }
 

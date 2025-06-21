@@ -1,0 +1,1 @@
+export type Payment_methods = 'Credit_card' | 'Cash' 
